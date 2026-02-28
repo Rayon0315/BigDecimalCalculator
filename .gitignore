@@ -1,0 +1,36 @@
+# ===== Build =====
+build/
+bin/
+Debug/
+Release/
+out/
+
+# ===== C++ =====
+*.o
+*.obj
+*.exe
+*.dll
+*.lib
+*.pdb
+
+# ===== Qt =====
+*.pro.user
+*.qrc.depends
+moc_*
+ui_*
+qrc_*
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# ===== IDE =====
+.vs/
+.vscode/
+.idea/
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
