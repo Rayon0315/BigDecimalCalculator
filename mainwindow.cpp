@@ -61,6 +61,7 @@ MainWindow::MainWindow(QWidget *parent)
     });
 
     connect(ui->btnCalc, &QPushButton::clicked, this, [this]() {
+        calcClear();
         ui->stackedWidget->setCurrentWidget(ui->pageCalc);
     });
 
@@ -78,6 +79,7 @@ void MainWindow::calcBackspace() {
 }
 
 void MainWindow::calcClear() {
+    ui->editStatus->clear();
     ui->editArea->clear();
     ui->editArea->setCursorPosition(0);
 }
