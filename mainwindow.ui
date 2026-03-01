@@ -21,7 +21,7 @@
     <item>
      <widget class="QStackedWidget" name="stackedWidget">
       <property name="currentIndex">
-       <number>2</number>
+       <number>3</number>
       </property>
       <widget class="QWidget" name="pageInit">
        <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -484,7 +484,7 @@
            </font>
           </property>
           <property name="text">
-           <string>骗你的没做出来</string>
+           <string>敬请期待</string>
           </property>
           <property name="alignment">
            <set>Qt::AlignmentFlag::AlignCenter</set>
